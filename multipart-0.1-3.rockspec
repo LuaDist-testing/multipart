@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "multipart"
-version = "0.1-2"
+version = "0.1-3"
 -- LuaDist source
 source = {
-  tag = "0.1-2",
+  tag = "0.1-3",
   url = "git://github.com/LuaDist-testing/multipart.git"
 }
 -- Original source
 -- source = {
 --   url = "git://github.com/Mashape/lua-multipart",
---   tag = "0.1-2"
+--   tag = "0.1-3"
 -- }
 description = {
   summary = "A simple HTTP multipart encoder/decoder for Lua",
@@ -22,7 +22,7 @@ description = {
 }
 dependencies = {
   "lua >= 5.1",
-  "stringy ~> 0.2-1"
+  "stringy ~> 0.4-1"
 }
 build = {
   type = "builtin",
